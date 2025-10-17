@@ -7,9 +7,9 @@
     "build": "vite build",
     "serve": "vite preview",
     "test": "vitest run",
-    "format": "biome format",
-    "lint": "biome lint",
-    "check": "biome check"
+    "format": "npx ultracite@latest fix",
+    "lint": "npx ultracite@latest lint",
+    "check": "npx ultracite@latest check"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
@@ -40,5 +40,5 @@
     "vitest": "^3.0.5",
     "web-vitals": "^5.1.0"
   },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  "packageManager": "pnpm@10.18.3"
 }
