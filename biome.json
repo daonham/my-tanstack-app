@@ -71,7 +71,8 @@
         "useNodejsImportProtocol": "off",
         "useShorthandAssign": "off",
         "useTemplate": "off",
-        "useNumberNamespace": "off"
+        "useNumberNamespace": "off",
+        "noHeadElement": "off"
       },
       "suspicious": {
         "noArrayIndexKey": "off",
