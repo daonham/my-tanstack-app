@@ -62,7 +62,9 @@ function App() {
 						<img
 							alt="TanStack Logo"
 							className="h-24 w-24 md:h-32 md:w-32"
+							height="auto"
 							src="/tanstack-circle-logo.png"
+							width="auto"
 						/>
 						<h1 className="font-bold text-6xl text-white md:text-7xl">
 							<span className="text-gray-300">TANSTACK</span>{' '}
